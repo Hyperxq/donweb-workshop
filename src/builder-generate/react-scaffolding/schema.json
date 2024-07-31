@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "react-scaffolding",
+    "title": "a custom schematic ",
+    "type": "object",
+    "properties": {}
+}

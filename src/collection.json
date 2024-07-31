@@ -1,0 +1,18 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "builder-add": {
+      "description": "This schematic will be executed when use the command builder add [collection-name]",
+      "factory": "./builder-add/builder-add.factory#builderAddFactory",
+      "schema": "./builder-add/schema.json"
+    },
+    "react-scaffolding": {
+      "description": "this schematic will create scaffolding suggested for gentleman",
+      "factory": "./builder-generate/react-scaffolding/react-scaffolding.factory#reactScaffoldingFactory",
+      "schema": "./builder-generate/react-scaffolding/schema.json",
+      "aliases": [
+        "sc"
+      ]
+    }
+  }
+}
